@@ -1,5 +1,9 @@
 import javax.swing.JPanel;
-
+/**
+ * 
+ * @author James Woodward
+ *
+ */
 //TestResultsListPanel.LISTPANEL
 public class TestResultsListPanel extends JPanel {
 	final static String LISTPANEL = "LIST PANEL";

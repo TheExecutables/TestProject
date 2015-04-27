@@ -5,7 +5,11 @@ import java.awt.event.ItemListener;
 import javax.swing.ButtonGroup;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
-
+/**
+ * 
+ * @author James Woodward
+ *
+ */
 
 public class TestSelectPanel extends JPanel{
 	
@@ -18,8 +22,7 @@ public class TestSelectPanel extends JPanel{
 	private javax.swing.JRadioButton jRadioButton1;
 	private javax.swing.JRadioButton jRadioButton2;
 	private javax.swing.ButtonGroup buttonGroup;
-	private boolean labelASelected = false;
-	private boolean labelBSelected = false;
+
 	// End of variables declaration       
 
 
@@ -59,7 +62,7 @@ public class TestSelectPanel extends JPanel{
         jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
             	selectLabelA();
-            	
+            	repaint();
                 jRadioButton1ActionPerformed(evt);
             }
         });
@@ -68,7 +71,7 @@ public class TestSelectPanel extends JPanel{
         jRadioButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
             	selectLabelB();
-            	
+            	repaint();
                 jRadioButton1ActionPerformed(evt);
             }
         });
@@ -78,13 +81,13 @@ public class TestSelectPanel extends JPanel{
 
         cancel.setText("cancel");
 
-        labelB.setText("Label B");
+        labelB.setText("TEST QUESTION B");
         labelB.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
 
-        labelA.setText("Label A");
+        labelA.setText("TEST QUESTION A");
         labelA.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
 
-        
+      
         cancel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
             	 MainFrame.cl.show(MainFrame.cards, MainPanel.MAINPANEL);
@@ -129,7 +132,7 @@ public class TestSelectPanel extends JPanel{
                 .addGap(53, 53, 53))
         );
     }
-
+    
 
 private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                              
     // TODO add your handling code here:
@@ -137,28 +140,19 @@ private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {
 //going to duplicate fix later 
 
 public void selectLabelA(){
-	  System.out.println(labelASelected);
-	  labelA.setBackground(Color.GREEN);
-	  labelA.setText("Status : Run");
+		labelA.setOpaque(true);
+		labelA.setBackground(Color.LIGHT_GRAY);
+		
+		labelB.setOpaque(false);
 
 	}
 	
-		
-
-		
 
 public void selectLabelB(){
-	
-
-	System.out.println(labelBSelected);
-
-	labelB.setBackground(Color.GREEN);
-	labelB.setText("Status : Run");
-	
-	
-	
+		labelB.setOpaque(true);
+		labelB.setBackground(Color.LIGHT_GRAY);
 		
+		labelA.setOpaque(false);
 
-      
 }
 }

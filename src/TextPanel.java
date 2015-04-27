@@ -1,4 +1,9 @@
 import javax.swing.*;
+/**
+ * 
+ * @author James Woodward
+ *
+ */
 public class TextPanel extends JPanel{
 	
 	  final static String TEXTPANEL = "TEXT PANEL";

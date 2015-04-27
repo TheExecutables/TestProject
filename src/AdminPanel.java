@@ -1,5 +1,9 @@
 import javax.swing.JPanel;
-
+/**
+ * 
+ * @author James Woodward
+ *
+ */
 
 public class AdminPanel extends JPanel {
 

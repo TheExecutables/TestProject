@@ -2,7 +2,11 @@ import java.awt.LayoutManager;
 
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-
+/**
+ * 
+ * @author James Woodward
+ *
+ */
 // "UserWelcomePanel.USERWELCOMEPANEL"
 public class UserWelcomePanel extends JPanel {
 

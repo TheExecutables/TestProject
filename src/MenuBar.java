@@ -4,7 +4,11 @@ import java.awt.event.ActionListener;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
-
+/**
+ * 
+ * @author James Woodward
+ *
+ */
 
 public class MenuBar extends JMenuBar implements ActionListener{
 
