@@ -9,9 +9,9 @@ import java.sql.SQLException;
  * @author Cara Tang
  */
 public class FiredUpDB {
-	private static final String FIREDUP_URL = "jdbc:jtds:sqlserver://cisdbss.pcc.edu/FiredUp";
-	private static final String USERNAME = "275student";
-	private static final String PASSWORD = "275student";
+	private static final String FIREDUP_URL = "jdbc:jtds:sqlserver://cisdbss.pcc.edu/234a_exe";
+	private static final String USERNAME = "234a_exe";
+	private static final String PASSWORD = "exe_a432#";
 
 	public static Connection getConnection() throws SQLException {
 		Connection connection = DriverManager.getConnection(FIREDUP_URL, USERNAME, PASSWORD);

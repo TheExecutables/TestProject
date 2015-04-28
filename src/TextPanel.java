@@ -1,3 +1,4 @@
+
 import javax.swing.*;
 /**
  * 
@@ -12,7 +13,7 @@ public class TextPanel extends JPanel{
 	    private javax.swing.JLabel jLabel1;
 	    private javax.swing.JTextField jTextField1;
 	    private static String userName;
-	    
+	    private CustomerDB custdb;
 	public TextPanel(){
 
 		initComponents();
@@ -20,7 +21,8 @@ public class TextPanel extends JPanel{
 	}
 	
 	private void initComponents() {
-
+		
+		custdb = new CustomerDB();
         jTextField1 = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         jButtonCreate = new javax.swing.JButton();
@@ -40,12 +42,15 @@ public class TextPanel extends JPanel{
         jButtonCreate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
             	userName = jTextField1.getText();
+            	custdb.mName = userName;
+            	custdb.createUser();
             	UserWelcomePanel.setUserName(userName);
-         
+            	
             	MainFrame.cl.show(MainFrame.cards, UserWelcomePanel.USERWELCOMEPANEL);
                 jButton1ActionPerformed(evt);
             }
         });
+        //create a class to 
 
         jButtonCancel.setText("Cancel");
         jButtonCancel.addActionListener(new java.awt.event.ActionListener() {

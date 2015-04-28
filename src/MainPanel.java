@@ -1,29 +1,26 @@
-import java.awt.CardLayout;
 
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
+
 import javax.swing.JPanel;
 
 // you can reference this panel with "MainPanel.MAINPANEL"
-public class MainPanel extends JPanel {
+public  class MainPanel extends JPanel {
 	
 	final static String MAINPANEL = "MAIN PANEL";
 	
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
+    javax.swing.JButton jButton1;
+    javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
 
 
 	public MainPanel( )   {
-		createMain();
+		initComponents();
 	}
 
 
 
-public void createMain( ){
+public void initComponents( ){
 	 
 
     jButton1 = new javax.swing.JButton();
@@ -38,6 +35,7 @@ public void createMain( ){
     //setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
     jButton1.setText("Create");
+    
     jButton1.addActionListener(new java.awt.event.ActionListener() {
         public void actionPerformed(java.awt.event.ActionEvent evt) {
         	 MainFrame.cl.show(MainFrame.cards, TextPanel.TEXTPANEL);
@@ -45,12 +43,12 @@ public void createMain( ){
             
         }
     });
-
+	
     jButton2.setText("Select");
     jButton2.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
+          public void actionPerformed(java.awt.event.ActionEvent evt) {
         	MainFrame.cl.show(MainFrame.cards, TestSelectPanel.TESTSELECTPANEL);
-        }
+       }
     });
 
     jLabel1.setText("Please select an option");

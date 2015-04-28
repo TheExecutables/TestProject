@@ -1,3 +1,4 @@
+
 import java.awt.Color;
 import java.awt.event.ComponentListener;
 import java.awt.event.ItemListener;
@@ -5,6 +6,7 @@ import java.awt.event.ItemListener;
 import javax.swing.ButtonGroup;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
+
 /**
  * 
  * @author James Woodward
@@ -15,6 +17,8 @@ public class TestSelectPanel extends JPanel{
 	
 	final static String TESTSELECTPANEL = "Test Selection Panel";                 
 	private javax.swing.JButton cancel;
+	private javax.swing.JButton submit;
+	
 	private javax.swing.JButton jButton1;
 	private javax.swing.JFrame jFrame1;
 	private javax.swing.JLabel labelB;
@@ -35,6 +39,7 @@ public class TestSelectPanel extends JPanel{
     	
 
         jFrame1 = new javax.swing.JFrame();
+        submit = new javax.swing.JButton();
         jRadioButton1 = new javax.swing.JRadioButton();
         jRadioButton2 = new javax.swing.JRadioButton();
         jButton1 = new javax.swing.JButton();
@@ -142,7 +147,6 @@ private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {
 public void selectLabelA(){
 		labelA.setOpaque(true);
 		labelA.setBackground(Color.LIGHT_GRAY);
-		
 		labelB.setOpaque(false);
 
 	}

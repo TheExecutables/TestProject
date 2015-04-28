@@ -1,3 +1,4 @@
+
 import java.awt.LayoutManager;
 
 import javax.swing.JLabel;
@@ -19,8 +20,7 @@ public class UserWelcomePanel extends JPanel {
 }
 
 	static void setUserName(String userName){
-		UserWelcomePanel.userName = userName;
-		jLabel1.setText("Welcome " + Customer.name);
+		jLabel1.setText("Welcome " + userName);
 	}
                         
 private void initComponents() {

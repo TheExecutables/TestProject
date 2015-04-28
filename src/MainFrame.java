@@ -17,8 +17,10 @@ public class MainFrame extends JFrame {
 	private static String userName;
 	
 	
+	
 	public MainFrame(){
 		setSize(dim);
+		//MainPanel
 		
 		//todo add controller class to handle model/views
 		cards.setLayout(cl);
@@ -27,8 +29,18 @@ public class MainFrame extends JFrame {
 		cards.add(new TestSelectPanel(),TestSelectPanel.TESTSELECTPANEL);
 		cards.add(new UserWelcomePanel(), UserWelcomePanel.USERWELCOMEPANEL);
 		cards.add(new TestResultsListPanel(), TestResultsListPanel.LISTPANEL);
-		CustomerDB custdb = new CustomerDB();
-		custdb.getCustomers();
+		cards.add(new AdminPanel(), AdminPanel.ADMINPANEL);
+		
+		//CustomerDB custdb = new CustomerDB();
+		//we cant set the text of the panel until the panel is created
+		//custdb.setUserID(4, "ryan", "seacrest");
+		//System.out.println(CustomerDB.mName);
+		//custdb.createUser();
+		//custdb.getCustomers();
+		//custdb.createUser();
+		
+		 
+		
 		setJMenuBar(new MenuBar());
 		showGUI();
 		
