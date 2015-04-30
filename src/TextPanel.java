@@ -1,5 +1,7 @@
 
 import javax.swing.*;
+import java.awt.*;
+
 /**
  * 
  * @author James Woodward
@@ -14,7 +16,11 @@ public class TextPanel extends JPanel{
 	    private javax.swing.JTextField jTextField1;
 	    private static String userName;
 	    private CustomerDB custdb;
-	public TextPanel(){
+    private JLabel jLabel2;
+    private JTextField jTextField2;
+    private String email;
+
+    public TextPanel(){
 
 		initComponents();
 		
@@ -27,10 +33,10 @@ public class TextPanel extends JPanel{
         jLabel1 = new javax.swing.JLabel();
         jButtonCreate = new javax.swing.JButton();
         jButtonCancel = new javax.swing.JButton();
-
-
+        jLabel2 = new JLabel();
+        jTextField2 = new JTextField();
         jLabel1.setText("Enter Email");
-        
+        jLabel2.setText("Enter Name");
         
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -41,12 +47,15 @@ public class TextPanel extends JPanel{
         jButtonCreate.setText("Create");
         jButtonCreate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-            	userName = jTextField1.getText();
-            	custdb.mName = userName;
-            	custdb.createUser();
-            	UserWelcomePanel.setUserName(userName);
-            	
-            	MainFrame.cl.show(MainFrame.cards, UserWelcomePanel.USERWELCOMEPANEL);
+                userName = jTextField2.getText();
+                email = jTextField1.getText();
+                CustomerDB.mName = userName;
+                CustomerDB.mEmail = email;
+                custdb.createUser();
+
+                UserWelcomePanel.setUserName(userName);
+
+                MainFrame.cl.show(MainFrame.cards, UserWelcomePanel.USERWELCOMEPANEL);
                 jButton1ActionPerformed(evt);
             }
         });
@@ -55,7 +64,7 @@ public class TextPanel extends JPanel{
         jButtonCancel.setText("Cancel");
         jButtonCancel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-            	MainFrame.cl.show(MainFrame.cards, MainPanel.MAINPANEL);
+                MainFrame.cl.show(MainFrame.cards, MainPanel.MAINPANEL);
             }
         });
 
@@ -64,32 +73,43 @@ public class TextPanel extends JPanel{
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(34, 34, 34)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jButtonCancel)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(layout.createSequentialGroup()
+                                        .addContainerGap()
+                                        .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                        .addGap(217, 217, 217)
+                                        .addComponent(jButtonCreate))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jButtonCreate)
-                        .addGap(0, 17, Short.MAX_VALUE))
-                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jButtonCancel)
+                                        .addComponent(jLabel2))
+                                .addGap(0, 17, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(25, 25, 25)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, 27, Short.MAX_VALUE)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(63, 63, 63)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField1)
+                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(13, 13, 13)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButtonCreate)
                     .addComponent(jButtonCancel))
-                .addContainerGap(214, Short.MAX_VALUE))
+                .addContainerGap(143, Short.MAX_VALUE))
         );
-    }                     
+    }// </editor-fold>                
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         // TODO add your handling code here:
@@ -112,6 +132,8 @@ public class TextPanel extends JPanel{
 	}
                   
 }
+
+
 
 
 

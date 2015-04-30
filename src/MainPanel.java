@@ -47,7 +47,7 @@ public void initComponents( ){
     jButton2.setText("Select");
     jButton2.addActionListener(new java.awt.event.ActionListener() {
           public void actionPerformed(java.awt.event.ActionEvent evt) {
-        	MainFrame.cl.show(MainFrame.cards, TestSelectPanel.TESTSELECTPANEL);
+        	MainFrame.cl.show(MainFrame.cards, TestResultsListPanel.LISTPANEL);
        }
     });
 
@@ -100,6 +100,6 @@ public void initComponents( ){
             .addGap(135, 135, 135))
     );
 
-  //  pack();
+  
 }
 }          

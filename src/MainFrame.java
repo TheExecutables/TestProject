@@ -30,6 +30,8 @@ public class MainFrame extends JFrame {
 		cards.add(new UserWelcomePanel(), UserWelcomePanel.USERWELCOMEPANEL);
 		cards.add(new TestResultsListPanel(), TestResultsListPanel.LISTPANEL);
 		cards.add(new AdminPanel(), AdminPanel.ADMINPANEL);
+		cards.add(new TestResultsListPanel(), TestResultsListPanel.LISTPANEL);
+		
 		
 		//CustomerDB custdb = new CustomerDB();
 		//we cant set the text of the panel until the panel is created
