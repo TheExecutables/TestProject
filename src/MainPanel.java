@@ -38,16 +38,16 @@ public void initComponents( ){
     
     jButton1.addActionListener(new java.awt.event.ActionListener() {
         public void actionPerformed(java.awt.event.ActionEvent evt) {
-        	 MainFrame.cl.show(MainFrame.cards, TextPanel.TEXTPANEL);
-        	
-            
+        	 MainFrame.cl.show(MainFrame.cards, CreateUserPanel.CREATEUSERPANEL);
+
+
         }
     });
 	
     jButton2.setText("Select");
     jButton2.addActionListener(new java.awt.event.ActionListener() {
           public void actionPerformed(java.awt.event.ActionEvent evt) {
-        	MainFrame.cl.show(MainFrame.cards, TestResultsListPanel.LISTPANEL);
+        	MainFrame.cl.show(MainFrame.cards, TestPanel.TESTSELECTPANEL);
        }
     });
 

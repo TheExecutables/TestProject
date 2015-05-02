@@ -1,6 +1,7 @@
 import java.awt.CardLayout;
 import java.awt.Dimension;
-import java.awt.LayoutManager;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.swing.*;
 /**
@@ -15,28 +16,34 @@ public class MainFrame extends JFrame {
 	static JPanel cards = new JPanel();
 	public static CardLayout cl = new CardLayout();
 	private static String userName;
-	
+	//
 	
 	
 	public MainFrame(){
 		setSize(dim);
 		//MainPanel
-		
+        System.out.println("nothing");
+        Test test = new Test();
+        System.out.println("nothing");
 		//todo add controller class to handle model/views
 		cards.setLayout(cl);
 		cards.add(new MainPanel(), MainPanel.MAINPANEL);
-		cards.add(new TextPanel(), TextPanel.TEXTPANEL);
-		cards.add(new TestSelectPanel(),TestSelectPanel.TESTSELECTPANEL);
+		cards.add(new CreateUserPanel(), CreateUserPanel.CREATEUSERPANEL);
+		cards.add(new TestPanel(), TestPanel.TESTSELECTPANEL);
 		cards.add(new UserWelcomePanel(), UserWelcomePanel.USERWELCOMEPANEL);
 		cards.add(new TestResultsListPanel(), TestResultsListPanel.LISTPANEL);
 		cards.add(new AdminPanel(), AdminPanel.ADMINPANEL);
 		cards.add(new TestResultsListPanel(), TestResultsListPanel.LISTPANEL);
+
+
+
+
+
 		
-		
-		//CustomerDB custdb = new CustomerDB();
+		//UserDB custdb = new UserDB();
 		//we cant set the text of the panel until the panel is created
 		//custdb.setUserID(4, "ryan", "seacrest");
-		//System.out.println(CustomerDB.mName);
+		//System.out.println(UserDB.mName);
 		//custdb.createUser();
 		//custdb.getCustomers();
 		//custdb.createUser();

@@ -40,7 +40,7 @@ public void initComponents( ){
     jButton1.setText("Create");
     jButton1.addActionListener(new java.awt.event.ActionListener() {
         public void actionPerformed(java.awt.event.ActionEvent evt) {
-        	 MainFrame.cl.show(MainFrame.cards, TextPanel.TEXTPANEL);
+        	 MainFrame.cl.show(MainFrame.cards, CreateUserPanel.CREATEUSERPANEL);
         	
             
         }
@@ -49,7 +49,7 @@ public void initComponents( ){
     jButton2.setText("Select");
     jButton2.addActionListener(new java.awt.event.ActionListener() {
         public void actionPerformed(java.awt.event.ActionEvent evt) {
-        	MainFrame.cl.show(MainFrame.cards, TestSelectPanel.TESTSELECTPANEL);
+        	MainFrame.cl.show(MainFrame.cards, TestPanel.TESTSELECTPANEL);
         }
     });
 

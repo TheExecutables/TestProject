@@ -1,26 +1,25 @@
 
 import javax.swing.*;
-import java.awt.*;
 
 /**
  * 
  * @author James Woodward
  *
  */
-public class TextPanel extends JPanel{
+public class CreateUserPanel extends JPanel{
 	
-	  final static String TEXTPANEL = "TEXT PANEL";
+	  final static String CREATEUSERPANEL = "Create User PANEL";
 	  	private javax.swing.JButton jButtonCreate;
 	    private javax.swing.JButton jButtonCancel;
 	    private javax.swing.JLabel jLabel1;
-	    private javax.swing.JTextField jTextField1;
-	    private static String userName;
-	    private CustomerDB custdb;
-    private JLabel jLabel2;
-    private JTextField jTextField2;
-    private String email;
+        private JLabel jLabel2;
+        private javax.swing.JTextField jTextField1;
+        private JTextField jTextField2;
+        private static String userName;
+        private String email;
+        private UserDB custdb;
 
-    public TextPanel(){
+    public CreateUserPanel(){
 
 		initComponents();
 		
@@ -28,7 +27,7 @@ public class TextPanel extends JPanel{
 	
 	private void initComponents() {
 		
-		custdb = new CustomerDB();
+		custdb = new UserDB();
         jTextField1 = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         jButtonCreate = new javax.swing.JButton();
@@ -49,8 +48,8 @@ public class TextPanel extends JPanel{
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 userName = jTextField2.getText();
                 email = jTextField1.getText();
-                CustomerDB.mName = userName;
-                CustomerDB.mEmail = email;
+                UserDB.mName = userName;
+                UserDB.mEmail = email;
                 custdb.createUser();
 
                 UserWelcomePanel.setUserName(userName);

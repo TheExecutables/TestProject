@@ -13,7 +13,7 @@ import javax.swing.SwingUtilities;
  *
  */
 
-public class TestSelectPanel extends JPanel{
+public class TestPanel extends JPanel{
 	
 	final static String TESTSELECTPANEL = "Test Selection Panel";                 
 	private javax.swing.JButton cancel;
@@ -21,16 +21,18 @@ public class TestSelectPanel extends JPanel{
 	
 	private javax.swing.JButton jButton1;
 	private javax.swing.JFrame jFrame1;
-	private javax.swing.JLabel labelB;
-	private javax.swing.JLabel labelA;
+	static javax.swing.JLabel labelB;
+	static javax.swing.JLabel labelA;
 	private javax.swing.JRadioButton jRadioButton1;
 	private javax.swing.JRadioButton jRadioButton2;
 	private javax.swing.ButtonGroup buttonGroup;
+    private boolean labelASelected = false;
+    private boolean labelBSelected = false;
 
 	// End of variables declaration       
 
 
-	public TestSelectPanel() {
+	public TestPanel() {
     initComponents();
 }
 
@@ -66,8 +68,8 @@ public class TestSelectPanel extends JPanel{
         jRadioButton1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
         jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-            	selectLabelA();
-            	repaint();
+
+
                 jRadioButton1ActionPerformed(evt);
             }
         });
@@ -75,9 +77,8 @@ public class TestSelectPanel extends JPanel{
         jRadioButton2.setText("CHOICE B");
         jRadioButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-            	selectLabelB();
-            	repaint();
-                jRadioButton1ActionPerformed(evt);
+
+                jRadioButton2ActionPerformed(evt);
             }
         });
         
@@ -139,24 +140,49 @@ public class TestSelectPanel extends JPanel{
     }
     
 
-private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                              
+    private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+    selectLabelA();
+        labelA.setOpaque(true);
+        labelA.setBackground(Color.LIGHT_GRAY);
+        labelB.setOpaque(false);
+        repaint();
+    System.out.println("label A  = " + labelASelected);
+    System.out.println("label B  = " + labelBSelected);
     // TODO add your handling code here:
-}                                             
+}
+    private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {
+        selectLabelB();
+        labelB.setOpaque(true);
+        labelB.setBackground(Color.LIGHT_GRAY);
+        labelA.setOpaque(false);
+        repaint();
+        System.out.println("label A  = " + labelASelected);
+        System.out.println("label B  = " + labelBSelected);
+
+
+    }
 //going to duplicate fix later 
 
 public void selectLabelA(){
-		labelA.setOpaque(true);
-		labelA.setBackground(Color.LIGHT_GRAY);
-		labelB.setOpaque(false);
-
+        labelASelected = true;
+        labelBSelected = false;
+        labelA.setText("label A set in here");
+        System.out.println("GOT TO HERE");
+        //update test stuff.
 	}
 	
 
 public void selectLabelB(){
-		labelB.setOpaque(true);
-		labelB.setBackground(Color.LIGHT_GRAY);
-		
-		labelA.setOpaque(false);
-
+        labelBSelected = true;
+        labelASelected = false;
+        labelB.setText("label A set in here");
+        System.out.println("GOT TO HERE");
+        //update test stuff.
 }
+    public  void setLabelA(String text){
+        labelA.setText(text);
+    }
+    public   void setLabelB(String text){
+        labelB.setText(text);
+    }
 }
