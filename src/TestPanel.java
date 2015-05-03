@@ -1,11 +1,10 @@
 
 import java.awt.Color;
-import java.awt.event.ComponentListener;
-import java.awt.event.ItemListener;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.ButtonGroup;
 import javax.swing.JPanel;
-import javax.swing.SwingUtilities;
 
 /**
  * 
@@ -16,10 +15,10 @@ import javax.swing.SwingUtilities;
 public class TestPanel extends JPanel{
 	
 	final static String TESTSELECTPANEL = "Test Selection Panel";                 
-	private javax.swing.JButton cancel;
+	private javax.swing.JButton startBtn;
 	private javax.swing.JButton submit;
 	
-	private javax.swing.JButton jButton1;
+	private javax.swing.JButton neither;
 	private javax.swing.JFrame jFrame1;
 	static javax.swing.JLabel labelB;
 	static javax.swing.JLabel labelA;
@@ -44,8 +43,8 @@ public class TestPanel extends JPanel{
         submit = new javax.swing.JButton();
         jRadioButton1 = new javax.swing.JRadioButton();
         jRadioButton2 = new javax.swing.JRadioButton();
-        jButton1 = new javax.swing.JButton();
-        cancel = new javax.swing.JButton();
+        neither = new javax.swing.JButton();
+        startBtn = new javax.swing.JButton();
         labelB = new javax.swing.JLabel();
         labelA = new javax.swing.JLabel();
         buttonGroup = new ButtonGroup();
@@ -56,12 +55,12 @@ public class TestPanel extends JPanel{
         javax.swing.GroupLayout jFrame1Layout = new javax.swing.GroupLayout(jFrame1.getContentPane());
         jFrame1.getContentPane().setLayout(jFrame1Layout);
         jFrame1Layout.setHorizontalGroup(
-            jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+                jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 400, Short.MAX_VALUE)
         );
         jFrame1Layout.setVerticalGroup(
-            jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+                jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 300, Short.MAX_VALUE)
         );
 
         jRadioButton1.setText("CHOICE A");
@@ -83,22 +82,28 @@ public class TestPanel extends JPanel{
         });
         
 
-        jButton1.setText("Neither");
+        neither.setText("Cancel");
 
-        cancel.setText("cancel");
+        neither.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MainFrame.cl.show(MainFrame.cards, MainPanel.MAINPANEL);
+                jButton1ActionPerformed(evt);
+            }
+        });
 
-        labelB.setText("TEST QUESTION B");
+        startBtn.setText("Start");
+
+        labelB.setText(Test.testWord);
         labelB.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
 
-        labelA.setText("TEST QUESTION A");
+        labelA.setText(Test.otherWord);
         labelA.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
 
       
-        cancel.addActionListener(new java.awt.event.ActionListener() {
+        startBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-            	 MainFrame.cl.show(MainFrame.cards, MainPanel.MAINPANEL);
-            	
-                
+
+
             }
         });
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -108,11 +113,11 @@ public class TestPanel extends JPanel{
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(40, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(cancel)
+                    .addComponent(startBtn)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jRadioButton1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton1)
+                        .addComponent(neither)
                         .addGap(18, 18, 18)
                         .addComponent(jRadioButton2))
                     .addGroup(layout.createSequentialGroup()
@@ -132,16 +137,38 @@ public class TestPanel extends JPanel{
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jRadioButton1)
                     .addComponent(jRadioButton2)
-                    .addComponent(jButton1))
+                    .addComponent(neither))
                 .addGap(48, 48, 48)
-                .addComponent(cancel)
+                .addComponent(startBtn)
                 .addGap(53, 53, 53))
         );
     }
-    
+
+    private void jButton1ActionPerformed(ActionEvent evt) {
+    }
+
+    public void addNextButtonListener(ActionListener al) {
+        jRadioButton2.addActionListener(al);
+
+    }
+
+    /**
+     * Add the given listener to the "previous" button
+     * @param al  an ActionListener
+     */
+
+    public void addPrevButtonListener(ActionListener al) {
+        jRadioButton1.addActionListener(al);
+    }
+
+
+
+
+
 
     private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {
     selectLabelA();
+        labelA.setText(Test.otherWord);
         labelA.setOpaque(true);
         labelA.setBackground(Color.LIGHT_GRAY);
         labelB.setOpaque(false);
@@ -152,6 +179,7 @@ public class TestPanel extends JPanel{
 }
     private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {
         selectLabelB();
+        labelB.setText(Test.testWord);
         labelB.setOpaque(true);
         labelB.setBackground(Color.LIGHT_GRAY);
         labelA.setOpaque(false);
@@ -161,28 +189,18 @@ public class TestPanel extends JPanel{
 
 
     }
-//going to duplicate fix later 
 
 public void selectLabelA(){
         labelASelected = true;
         labelBSelected = false;
-        labelA.setText("label A set in here");
-        System.out.println("GOT TO HERE");
-        //update test stuff.
+
 	}
 	
 
 public void selectLabelB(){
         labelBSelected = true;
         labelASelected = false;
-        labelB.setText("label A set in here");
-        System.out.println("GOT TO HERE");
-        //update test stuff.
+
 }
-    public  void setLabelA(String text){
-        labelA.setText(text);
-    }
-    public   void setLabelB(String text){
-        labelB.setText(text);
-    }
+
 }

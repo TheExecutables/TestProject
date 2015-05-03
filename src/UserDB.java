@@ -19,9 +19,7 @@ public class UserDB implements  TestItemDAO{
 	static String mEmail = "hobo";
 	private static final String GET_CUSTOMERS_SQL = "SELECT word FROM Test;";
 	//private static final String CREATE_USER_SQL = "INSERT INTO Users(PersonID, Name, Email)VALUES(" + mPersonID + "," + mName + "," + mEmail + ");";
-	
-	
-	// refactor name of firedup to 
+
 
 
 

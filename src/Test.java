@@ -7,19 +7,35 @@ import java.util.List;
 public class Test {
     private TestItemDAO testItemDAO = DAOFactory.getTestItemDAO();
     private List<TestItem> testItems = testItemDAO.getTestItems();
+    static String testWord;
+    static String otherWord = "buuls";
 
     public Test() {
-        //startTest();
-        printList();
+
+
+    }
+
+    public ArrayList getTestItemArrayList(){
+        ArrayList<String> list =  new ArrayList<>();
+        for (TestItem item : testItems) {
+            list.add(item.getWord());
+        }
+        return list;
     }
 
 
     public void printList() {
         for (TestItem item : testItems) {
-            System.out.println(item.getWord());
+            String word = item.getWord();
+            System.out.println(word);
+            testWord = word;
         }
+
     }
+
+
 }
+
 
 /*
     public void addTestItemToDB(){
