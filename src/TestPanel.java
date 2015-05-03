@@ -42,21 +42,24 @@ public class TestPanel extends JPanel{
     }
 
     public  void  evalute(){
-        if(labelASelected){
-            win = 1;
+        if(labelNeitherSelected){
+            win = 0;
             lose = 0;
-            neither = 0;
+            neither = 1;
         }
         else if (labelBSelected){
             win = 1;
             lose = 0;
             neither = 0;
         }
-        else if (labelNeitherSelected){
+        else if (labelASelected){
             win = 1;
             lose = 0;
             neither = 0;
         }
+        labelASelected = false;
+        labelBSelected = false;
+        labelNeitherSelected = false;
 
     }
                        

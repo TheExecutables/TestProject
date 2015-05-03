@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcce4997-32f7-4183-8281-73eb08f23e7e" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\john\workspace\TestProject\out\production\TestProject\Test.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/AdminPanel$1.class" afterPath="$PROJECT_DIR$/out/production/TestProject/AdminPanel$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/AdminPanel$2.class" afterPath="$PROJECT_DIR$/out/production/TestProject/AdminPanel$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/AdminPanel.class" afterPath="$PROJECT_DIR$/out/production/TestProject/AdminPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/MainFrame.class" afterPath="$PROJECT_DIR$/out/production/TestProject/MainFrame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/MainPanel$1.class" afterPath="$PROJECT_DIR$/out/production/TestProject/MainPanel$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/MainPanel$2.class" afterPath="$PROJECT_DIR$/out/production/TestProject/MainPanel$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/MainPanel.class" afterPath="$PROJECT_DIR$/out/production/TestProject/MainPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/TestResultsListPanel$1.class" afterPath="$PROJECT_DIR$/out/production/TestProject/TestResultsListPanel$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/TestResultsListPanel.class" afterPath="$PROJECT_DIR$/out/production/TestProject/TestResultsListPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/UserWelcomePanel.class" afterPath="$PROJECT_DIR$/out/production/TestProject/UserWelcomePanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AdminPanel.java" afterPath="$PROJECT_DIR$/src/AdminPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreateUserPanel.java" afterPath="$PROJECT_DIR$/src/CreateUserPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainFrame.java" afterPath="$PROJECT_DIR$/src/MainFrame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainPanel.java" afterPath="$PROJECT_DIR$/src/MainPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test.java" afterPath="$PROJECT_DIR$/src/Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestPanel.java" afterPath="$PROJECT_DIR$/src/TestPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestProject.iml" afterPath="$PROJECT_DIR$/TestProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestResultsListPanel.java" afterPath="$PROJECT_DIR$/src/TestResultsListPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UserDB.java" afterPath="$PROJECT_DIR$/src/UserDB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UserWelcomePanel.java" afterPath="$PROJECT_DIR$/src/UserWelcomePanel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestProject.iws" />
@@ -49,8 +29,8 @@
       <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="23.448277">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state vertical-scroll-proportion="-4.2413793">
+              <caret line="42" column="28" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1231#1232#0" expanded="true" />
@@ -65,16 +45,16 @@
       <file leaf-file-name="TestPanel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61449754">
-              <caret line="137" column="42" selection-start-line="137" selection-start-column="42" selection-end-line="137" selection-end-column="42" />
+            <state vertical-scroll-proportion="-2.075377">
+              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#972#973#0" expanded="true" />
                 <element signature="e#1004#1005#0" expanded="true" />
-                <element signature="e#3697#3698#0" expanded="true" />
-                <element signature="e#3762#3763#0" expanded="true" />
-                <element signature="e#7683#7684#0" expanded="true" />
-                <element signature="e#7719#7720#0" expanded="true" />
+                <element signature="e#3799#3800#0" expanded="true" />
+                <element signature="e#3864#3865#0" expanded="true" />
+                <element signature="e#7785#7786#0" expanded="true" />
+                <element signature="e#7821#7822#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,8 +95,8 @@
       <file leaf-file-name="TestItemController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestItemController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.896552">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state vertical-scroll-proportion="-2.1724138">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -135,8 +115,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state vertical-scroll-proportion="-4.2413793">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="19" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -204,12 +184,12 @@
         <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/TestList.java" />
-        <option value="$PROJECT_DIR$/src/TestItemController.java" />
         <option value="$PROJECT_DIR$/src/TestItemView.java" />
         <option value="$PROJECT_DIR$/src/UserDB.java" />
         <option value="$PROJECT_DIR$/src/MainFrame.java" />
         <option value="$PROJECT_DIR$/bin/Form1.form" />
         <option value="$PROJECT_DIR$/src/TestPanel.java" />
+        <option value="$PROJECT_DIR$/src/TestItemController.java" />
       </list>
     </option>
   </component>
@@ -619,7 +599,7 @@
       <workItem from="1430178238518" duration="9962000" />
       <workItem from="1430422070597" duration="2336000" />
       <workItem from="1430425722665" duration="1406000" />
-      <workItem from="1430434050190" duration="45819000" />
+      <workItem from="1430434050190" duration="47175000" />
     </task>
     <task id="LOCAL-00001" summary="Small fixes now it create the name and email">
       <created>1430433700844</created>
@@ -639,11 +619,17 @@
       <option name="project" value="LOCAL" />
       <updated>1430612044280</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Remade TestPanel &#10;//todo remake the rest of the panels nice em up &#10;// make sure to fix test taking. ie writting the db it updates the word before it writes it to the database&#10;&#10;//">
+      <created>1430633059847</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1430633059847</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59523000" />
+    <option name="totallyTimeSpent" value="60879000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -656,17 +642,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2992126" sideWeight="0.511713" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32913387" sideWeight="0.511713" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.48828697" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32913387" sideWeight="0.48828697" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -725,7 +711,8 @@
     <MESSAGE value="Small fixes now it create the name and email" />
     <MESSAGE value="Test class is working It is pulling the words from the database and returning them to a arraylist." />
     <MESSAGE value="added  Main Class &#10;added  Controller for TestPanel" />
-    <option name="LAST_COMMIT_MESSAGE" value="added  Main Class &#10;added  Controller for TestPanel" />
+    <MESSAGE value="Remade TestPanel &#10;//todo remake the rest of the panels nice em up &#10;// make sure to fix test taking. ie writting the db it updates the word before it writes it to the database&#10;&#10;//" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remade TestPanel &#10;//todo remake the rest of the panels nice em up &#10;// make sure to fix test taking. ie writting the db it updates the word before it writes it to the database&#10;&#10;//" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1166,22 +1153,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestItemView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/Form1.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -1194,28 +1165,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="23.448277">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1279#1280#0" expanded="true" />
-            <element signature="e#3298#3299#0" expanded="true" />
-            <element signature="e#3342#3343#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.896552">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1247,18 +1196,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestItemView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2413793">
+          <caret line="42" column="28" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#3298#3299#0" expanded="true" />
+            <element signature="e#3342#3343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2413793">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="19" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1724138">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61449754">
-          <caret line="137" column="42" selection-start-line="137" selection-start-column="42" selection-end-line="137" selection-end-column="42" />
+        <state vertical-scroll-proportion="-2.075377">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#972#973#0" expanded="true" />
             <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#3697#3698#0" expanded="true" />
-            <element signature="e#3762#3763#0" expanded="true" />
-            <element signature="e#7683#7684#0" expanded="true" />
-            <element signature="e#7719#7720#0" expanded="true" />
+            <element signature="e#3799#3800#0" expanded="true" />
+            <element signature="e#3864#3865#0" expanded="true" />
+            <element signature="e#7785#7786#0" expanded="true" />
+            <element signature="e#7821#7822#0" expanded="true" />
           </folding>
         </state>
       </provider>
