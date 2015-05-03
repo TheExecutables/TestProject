@@ -13,7 +13,7 @@ import javax.swing.*;
 public class MainFrame extends JFrame implements TestItemView {
     private TestPanel testPanel;
     private TestItemController controller;
-    private final static Dimension dim = new Dimension(420, 300);
+    private final static Dimension dim = new Dimension(700, 500);
     static JPanel cards = new JPanel();
     public static CardLayout cl = new CardLayout();
 
@@ -21,7 +21,7 @@ public class MainFrame extends JFrame implements TestItemView {
         lookAndFeel();
         setSize(dim);
         cards.setLayout(cl);
-        cards.add(new MainPanel(), MainPanel.MAINPANEL);
+        cards.add(new MainPanel(), MainPanel.getPanelKey());
         cards.add(new CreateUserPanel(), CreateUserPanel.CREATEUSERPANEL);
         cards.add(createTestPanel(), TestPanel.TESTSELECTPANEL);
         cards.add(new UserWelcomePanel(), UserWelcomePanel.USERWELCOMEPANEL);
@@ -60,6 +60,7 @@ public class MainFrame extends JFrame implements TestItemView {
 
 
  //WAIT WAIT MAKE ALL your CONTROLLERS THEN WRAP THEM IN THE CARDS.
+
     public TestPanel createTestPanel(){
         testPanel = new TestPanel();
         testPanel.addNextButtonListener(new ActionListener() {
@@ -89,11 +90,16 @@ public class MainFrame extends JFrame implements TestItemView {
     }
 
 
+
     @Override
-    public void updateWord(String newWord) {
-       // testPanel.setWord(newWord);
-        System.out.println("If this works this is huge");
+    public void updateWord(String first, String second) {
+
+        testPanel.setWordLabelA(first);
+        testPanel.setWordLabelB(second);
+
     }
+
+
 
     @Override
     public void registerController(TestItemController controller) {

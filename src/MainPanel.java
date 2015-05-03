@@ -1,5 +1,4 @@
 
-
 import javax.swing.JPanel;
 
 // you can reference this panel with "MainPanel.MAINPANEL"
@@ -102,4 +101,9 @@ public void initComponents( ){
 
   
 }
+    public static String getPanelKey(){
+        return MAINPANEL;
+    }
+
+
 }          

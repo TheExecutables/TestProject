@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcce4997-32f7-4183-8281-73eb08f23e7e" name="Default" comment="Test class is working It is pulling the words from the database and returning them to a arraylist.">
-      <change type="DELETED" beforePath="C:\Users\john\workspace\TestProject\out\production\TestProject\FiredUpDB.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\john\workspace\TestProject\out\production\TestProject\this is a test.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\john\workspace\TestProject\src\this is a test.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/AdminPanel$1.class" afterPath="$PROJECT_DIR$/bin/AdminPanel$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/AdminPanel$2.class" afterPath="$PROJECT_DIR$/bin/AdminPanel$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/MainFrame$1.class" afterPath="$PROJECT_DIR$/bin/MainFrame$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/MainFrame$1.class" afterPath="$PROJECT_DIR$/out/production/TestProject/MainFrame$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/MainFrame.class" afterPath="$PROJECT_DIR$/bin/MainFrame.class" />
+    <list default="true" id="fcce4997-32f7-4183-8281-73eb08f23e7e" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\john\workspace\TestProject\out\production\TestProject\Test.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/AdminPanel$1.class" afterPath="$PROJECT_DIR$/out/production/TestProject/AdminPanel$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/AdminPanel$2.class" afterPath="$PROJECT_DIR$/out/production/TestProject/AdminPanel$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/AdminPanel.class" afterPath="$PROJECT_DIR$/out/production/TestProject/AdminPanel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/MainFrame.class" afterPath="$PROJECT_DIR$/out/production/TestProject/MainFrame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/MainPanel$1.class" afterPath="$PROJECT_DIR$/bin/MainPanel$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/MainPanel$2.class" afterPath="$PROJECT_DIR$/bin/MainPanel$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Test.class" afterPath="$PROJECT_DIR$/bin/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/Test.class" afterPath="$PROJECT_DIR$/out/production/TestProject/Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/MainPanel$1.class" afterPath="$PROJECT_DIR$/out/production/TestProject/MainPanel$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/MainPanel$2.class" afterPath="$PROJECT_DIR$/out/production/TestProject/MainPanel$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/MainPanel.class" afterPath="$PROJECT_DIR$/out/production/TestProject/MainPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/TestResultsListPanel$1.class" afterPath="$PROJECT_DIR$/out/production/TestProject/TestResultsListPanel$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/TestResultsListPanel.class" afterPath="$PROJECT_DIR$/out/production/TestProject/TestResultsListPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProject/UserWelcomePanel.class" afterPath="$PROJECT_DIR$/out/production/TestProject/UserWelcomePanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AdminPanel.java" afterPath="$PROJECT_DIR$/src/AdminPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreateUserPanel.java" afterPath="$PROJECT_DIR$/src/CreateUserPanel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainFrame.java" afterPath="$PROJECT_DIR$/src/MainFrame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainPanel.java" afterPath="$PROJECT_DIR$/src/MainPanel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test.java" afterPath="$PROJECT_DIR$/src/Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestPanel.java" afterPath="$PROJECT_DIR$/src/TestPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestProject.iml" afterPath="$PROJECT_DIR$/TestProject.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestResultsListPanel.java" afterPath="$PROJECT_DIR$/src/TestResultsListPanel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UserDB.java" afterPath="$PROJECT_DIR$/src/UserDB.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UserWelcomePanel.java" afterPath="$PROJECT_DIR$/src/UserWelcomePanel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestProject.iws" />
@@ -45,43 +49,47 @@
       <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8965516">
-              <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+            <state vertical-scroll-proportion="23.448277">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1227#1228#0" expanded="true" />
-                <element signature="e#1275#1276#0" expanded="true" />
-                <element signature="method#lookAndFeel#0;class#MainFrame#0" expanded="false" />
-                <element signature="method#createTestPanel#0;class#MainFrame#0" expanded="false" />
-                <element signature="e#3290#3291#0" expanded="true" />
-                <element signature="e#3334#3335#0" expanded="true" />
+                <element signature="e#1231#1232#0" expanded="true" />
+                <element signature="e#1279#1280#0" expanded="true" />
+                <element signature="e#3298#3299#0" expanded="true" />
+                <element signature="e#3342#3343#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestPanel.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestPanel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.61449754">
+              <caret line="137" column="42" selection-start-line="137" selection-start-column="42" selection-end-line="137" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
-                <element signature="e#6245#6246#0" expanded="true" />
-                <element signature="e#6296#6297#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#1004#1005#0" expanded="true" />
+                <element signature="e#3697#3698#0" expanded="true" />
+                <element signature="e#3762#3763#0" expanded="true" />
+                <element signature="e#7683#7684#0" expanded="true" />
+                <element signature="e#7719#7720#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-              <folding />
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#905#913#0" expanded="true" />
+                <element signature="e#1062#1070#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,57 +97,16 @@
       <file leaf-file-name="UserDB.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UserDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state vertical-scroll-proportion="-16.48">
+              <caret line="88" column="9" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1430610325542" expanded="true" signature="630:651" placeholder="SELECT word ..Test..." />
-                <marker date="1430610325542" expanded="true" signature="1462:1569" placeholder="INSERT INTO ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBSetup.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DBSetup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitattributes">
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.125">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1430628563888" expanded="true" signature="621:642" placeholder="SELECT word ..Test..." />
+                <marker date="1430628563888" expanded="true" signature="1305:1411" placeholder="INSERT INTO ..." />
+                <marker date="1430628563888" expanded="true" signature="1978:2071" placeholder="INSERT INTO ..." />
+                <marker date="1430628563888" expanded="true" signature="1978:2083" placeholder="INSERT INTO ..." />
+                <marker date="1430628563888" expanded="true" signature="1978:2096" placeholder="INSERT INTO ..." />
+                <marker date="1430628563888" expanded="true" signature="1978:2112" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -148,22 +115,44 @@
       <file leaf-file-name="TestItemController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestItemController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-              <folding>
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-12.896552">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/User.java">
+      <file leaf-file-name="TestItemView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestItemView.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Holds2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Holds2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,7 +184,6 @@
         <option value="$PROJECT_DIR$/src/MainController.java" />
         <option value="$PROJECT_DIR$/src/MainPanelController.java" />
         <option value="$PROJECT_DIR$/src/TestResultsListPanel.java" />
-        <option value="$PROJECT_DIR$/src/MainPanel.java" />
         <option value="$PROJECT_DIR$/src/TextPanel.java" />
         <option value="$PROJECT_DIR$/src/CreateUserPanel.java" />
         <option value="$PROJECT_DIR$/src/TestSelectPanel.java" />
@@ -208,15 +196,20 @@
         <option value="$PROJECT_DIR$/src/DAOFactory.java" />
         <option value="$PROJECT_DIR$/src/TestItem.java" />
         <option value="$PROJECT_DIR$/src/TestItemDAO.java" />
-        <option value="$PROJECT_DIR$/src/TestItemView.java" />
-        <option value="$PROJECT_DIR$/src/TestList.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/TestItemControl.java" />
-        <option value="$PROJECT_DIR$/src/TestItemController.java" />
-        <option value="$PROJECT_DIR$/src/UserDB.java" />
+        <option value="$PROJECT_DIR$/src/panelPackage/MainPanel.java" />
+        <option value="$PROJECT_DIR$/src/MainPanel.java" />
+        <option value="$PROJECT_DIR$/src/Holds2.java" />
+        <option value="$PROJECT_DIR$/src/Combination.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/TestPanel.java" />
+        <option value="$PROJECT_DIR$/src/TestList.java" />
+        <option value="$PROJECT_DIR$/src/TestItemController.java" />
+        <option value="$PROJECT_DIR$/src/TestItemView.java" />
+        <option value="$PROJECT_DIR$/src/UserDB.java" />
         <option value="$PROJECT_DIR$/src/MainFrame.java" />
+        <option value="$PROJECT_DIR$/bin/Form1.form" />
+        <option value="$PROJECT_DIR$/src/TestPanel.java" />
       </list>
     </option>
   </component>
@@ -316,6 +309,22 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="483" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="165" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="165" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="166" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="840" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="166" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="164" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="166" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="840" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -524,7 +533,7 @@
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="JAR_PATH" value="$PROJECT_DIR$/libs/jtds-1.3.0.jar" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/libs/combinatoricslib-2.0.jar" />
       <envs />
       <method />
     </configuration>
@@ -610,7 +619,7 @@
       <workItem from="1430178238518" duration="9962000" />
       <workItem from="1430422070597" duration="2336000" />
       <workItem from="1430425722665" duration="1406000" />
-      <workItem from="1430434050190" duration="25699000" />
+      <workItem from="1430434050190" duration="45819000" />
     </task>
     <task id="LOCAL-00001" summary="Small fixes now it create the name and email">
       <created>1430433700844</created>
@@ -624,11 +633,17 @@
       <option name="project" value="LOCAL" />
       <updated>1430600214683</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added  Main Class &#10;added  Controller for TestPanel">
+      <created>1430612044280</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1430612044280</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39403000" />
+    <option name="totallyTimeSpent" value="59523000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -641,26 +656,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2992126" sideWeight="0.511713" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298791" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2992126" sideWeight="0.48828697" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2992126" sideWeight="0.511713" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.48828697" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.49707174" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -676,12 +691,12 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2992126" sideWeight="0.511713" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2992126" sideWeight="0.511713" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298791" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2992126" sideWeight="0.48828697" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2992126" sideWeight="0.48828697" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -709,11 +724,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Small fixes now it create the name and email" />
     <MESSAGE value="Test class is working It is pulling the words from the database and returning them to a arraylist." />
-    <option name="LAST_COMMIT_MESSAGE" value="Test class is working It is pulling the words from the database and returning them to a arraylist." />
+    <MESSAGE value="added  Main Class &#10;added  Controller for TestPanel" />
+    <option name="LAST_COMMIT_MESSAGE" value="added  Main Class &#10;added  Controller for TestPanel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -728,7 +744,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1430607877435" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <element signature="e#905#913#0" expanded="true" />
+            <element signature="e#1062#1070#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -739,12 +756,10 @@
           <caret line="89" column="56" selection-start-line="89" selection-start-column="56" selection-end-line="89" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="method#lookAndFeel#0;class#MainFrame#0" expanded="false" />
-            <element signature="method#createTestPanel#0;class#MainFrame#0" expanded="false" />
-            <element signature="e#3290#3291#0" expanded="true" />
-            <element signature="e#3334#3335#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#3298#3299#0" expanded="true" />
+            <element signature="e#3342#3343#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -763,8 +778,12 @@
           <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1430610325542" expanded="true" signature="630:651" placeholder="SELECT word ..Test..." />
-            <marker date="1430610325542" expanded="true" signature="1462:1569" placeholder="INSERT INTO ..." />
+            <marker date="1430628563888" expanded="true" signature="621:642" placeholder="SELECT word ..Test..." />
+            <marker date="1430628563888" expanded="true" signature="1305:1411" placeholder="INSERT INTO ..." />
+            <marker date="1430628563888" expanded="true" signature="1978:2071" placeholder="INSERT INTO ..." />
+            <marker date="1430628563888" expanded="true" signature="1978:2083" placeholder="INSERT INTO ..." />
+            <marker date="1430628563888" expanded="true" signature="1978:2096" placeholder="INSERT INTO ..." />
+            <marker date="1430628563888" expanded="true" signature="1978:2112" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -773,7 +792,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#3768#3769#0" expanded="true" />
+            <element signature="e#3800#3801#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -817,7 +841,8 @@
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1430607877435" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <element signature="e#905#913#0" expanded="true" />
+            <element signature="e#1062#1070#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -836,8 +861,12 @@
           <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1430610325542" expanded="true" signature="630:651" placeholder="SELECT word ..Test..." />
-            <marker date="1430610325542" expanded="true" signature="1462:1569" placeholder="INSERT INTO ..." />
+            <marker date="1430628563888" expanded="true" signature="621:642" placeholder="SELECT word ..Test..." />
+            <marker date="1430628563888" expanded="true" signature="1305:1411" placeholder="INSERT INTO ..." />
+            <marker date="1430628563888" expanded="true" signature="1978:2071" placeholder="INSERT INTO ..." />
+            <marker date="1430628563888" expanded="true" signature="1978:2083" placeholder="INSERT INTO ..." />
+            <marker date="1430628563888" expanded="true" signature="1978:2096" placeholder="INSERT INTO ..." />
+            <marker date="1430628563888" expanded="true" signature="1978:2112" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -846,7 +875,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-          <folding />
+          <folding>
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#3768#3769#0" expanded="true" />
+            <element signature="e#3800#3801#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -898,12 +932,10 @@
           <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="method#lookAndFeel#0;class#MainFrame#0" expanded="false" />
-            <element signature="method#createTestPanel#0;class#MainFrame#0" expanded="false" />
-            <element signature="e#3290#3291#0" expanded="true" />
-            <element signature="e#3334#3335#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#3298#3299#0" expanded="true" />
+            <element signature="e#3342#3343#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -914,7 +946,8 @@
           <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1430607877435" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <element signature="e#905#913#0" expanded="true" />
+            <element signature="e#1062#1070#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -941,8 +974,12 @@
           <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1430610325542" expanded="true" signature="630:651" placeholder="SELECT word ..Test..." />
-            <marker date="1430610325542" expanded="true" signature="1462:1569" placeholder="INSERT INTO ..." />
+            <marker date="1430628563888" expanded="true" signature="621:642" placeholder="SELECT word ..Test..." />
+            <marker date="1430628563888" expanded="true" signature="1305:1411" placeholder="INSERT INTO ..." />
+            <marker date="1430628563888" expanded="true" signature="1978:2071" placeholder="INSERT INTO ..." />
+            <marker date="1430628563888" expanded="true" signature="1978:2083" placeholder="INSERT INTO ..." />
+            <marker date="1430628563888" expanded="true" signature="1978:2096" placeholder="INSERT INTO ..." />
+            <marker date="1430628563888" expanded="true" signature="1978:2112" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -951,7 +988,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#3768#3769#0" expanded="true" />
+            <element signature="e#3800#3801#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -981,28 +1023,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestResultsListPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding>
-            <element signature="method#initComponents#0;class#TestResultsListPanel#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/libs/jtds-1.3.0.jar!/net/sourceforge/jtds/jdbc/Driver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.68">
           <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAOFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1037,14 +1061,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CreateUserPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.448276">
@@ -1053,111 +1069,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.551724">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1430607877435" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestItemView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestItemDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1430610325542" expanded="true" signature="630:651" placeholder="SELECT word ..Test..." />
-            <marker date="1430610325542" expanded="true" signature="1462:1569" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#6245#6246#0" expanded="true" />
-            <element signature="e#6296#6297#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8965516">
-          <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="method#lookAndFeel#0;class#MainFrame#0" expanded="false" />
-            <element signature="method#createTestPanel#0;class#MainFrame#0" expanded="false" />
-            <element signature="e#3290#3291#0" expanded="true" />
-            <element signature="e#3334#3335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding>
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1182,9 +1098,168 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.125">
+        <state vertical-scroll-proportion="17.64">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2231834">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#3768#3769#0" expanded="true" />
+            <element signature="e#3800#3801#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30807248">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestItemDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2520593">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/combinatoricslib-2.0.jar!/org/paukov/combinatorics/CombinatoricsVector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.058419243">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestResultsListPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="method#initComponents#0;class#TestResultsListPanel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Holds2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestItemView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/Form1.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39209226">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="23.448277">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#3298#3299#0" expanded="true" />
+            <element signature="e#3342#3343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.896552">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.48">
+          <caret line="88" column="9" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1430628563888" expanded="true" signature="621:642" placeholder="SELECT word ..Test..." />
+            <marker date="1430628563888" expanded="true" signature="1305:1411" placeholder="INSERT INTO ..." />
+            <marker date="1430628563888" expanded="true" signature="1978:2071" placeholder="INSERT INTO ..." />
+            <marker date="1430628563888" expanded="true" signature="1978:2083" placeholder="INSERT INTO ..." />
+            <marker date="1430628563888" expanded="true" signature="1978:2096" placeholder="INSERT INTO ..." />
+            <marker date="1430628563888" expanded="true" signature="1978:2112" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#905#913#0" expanded="true" />
+            <element signature="e#1062#1070#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61449754">
+          <caret line="137" column="42" selection-start-line="137" selection-start-column="42" selection-end-line="137" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#3697#3698#0" expanded="true" />
+            <element signature="e#3762#3763#0" expanded="true" />
+            <element signature="e#7683#7684#0" expanded="true" />
+            <element signature="e#7719#7720#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

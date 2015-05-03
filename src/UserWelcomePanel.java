@@ -1,4 +1,3 @@
-
 import java.awt.LayoutManager;
 
 import javax.swing.JLabel;

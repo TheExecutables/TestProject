@@ -1,19 +1,55 @@
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.sql.Statement;
+import org.paukov.combinatorics.CombinatoricsVector;
+import org.paukov.combinatorics.Generator;
+import org.paukov.combinatorics.ICombinatoricsVector;
+import org.paukov.combinatorics.combination.simple.SimpleCombinationGenerator;
+
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class Test {
     private TestItemDAO testItemDAO = DAOFactory.getTestItemDAO();
     private List<TestItem> testItems = testItemDAO.getTestItems();
-    static String testWord;
-    static String otherWord = "buuls";
+
 
     public Test() {
 
+        make2Array();
+        printList();
+    }
+
+
+    // stole this from https://code.google.com/p/combinatoricslib/
+    // make sure I credit.
+     public ArrayList<Holds2>  make2Array(){
+         ArrayList<Holds2> twoItemArray = new ArrayList<>();
+        // create combinatorics vector
+        ArrayList tempArray = getTestItemArrayList();
+        CombinatoricsVector<String> initialVector = new CombinatoricsVector<String>(tempArray);
+
+        // create simple combination generator to generate 3-combination
+        Generator<String> gen = new SimpleCombinationGenerator<String>(initialVector , 2);
+
+        // create iterator
+        Iterator<ICombinatoricsVector<String>> itr = gen.createIterator();
+
+
+        // print the number of combinations
+        System.out.println("Number of combinations is: " + gen.getNumberOfGeneratedObjects());
+
+        // go through the iterator
+        while (itr.hasNext()) {
+            ICombinatoricsVector<String> combination = itr.next();
+            twoItemArray.add(new Holds2(combination.getValue(0), combination.getValue(1)));
+            //System.out.println(combination);
+        }
+
+
+        return twoItemArray;
+
 
     }
+
 
     public ArrayList getTestItemArrayList(){
         ArrayList<String> list =  new ArrayList<>();
@@ -25,10 +61,11 @@ public class Test {
 
 
     public void printList() {
-        for (TestItem item : testItems) {
-            String word = item.getWord();
-            System.out.println(word);
-            testWord = word;
+        ArrayList<Holds2> tacos = make2Array();
+        for (Holds2 item : tacos) {
+            System.out.println(item.getFirst()+ "  " + item.getSecond());
+
+
         }
 
     }
