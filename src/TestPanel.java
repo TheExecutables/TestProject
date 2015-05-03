@@ -43,7 +43,7 @@ public class TestPanel extends JPanel{
 
     public  void  evalute(){
         if(labelNeitherSelected){
-            win = 0;
+            win = 1;
             lose = 0;
             neither = 1;
         }
@@ -54,7 +54,7 @@ public class TestPanel extends JPanel{
         }
         else if (labelASelected){
             win = 1;
-            lose = 0;
+            lose = 1;
             neither = 0;
         }
         labelASelected = false;
@@ -135,10 +135,18 @@ public class TestPanel extends JPanel{
       
         submit.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent evt) {
-                UserDB userDB = new UserDB();
-                evalute();
-                userDB.saveTestItem(labelA.getText(),win, lose, neither );
-                userDB.saveTestItem(labelB.getText(),win, lose, neither );
+                 new SwingWorker() {
+                    @Override
+                    protected Object doInBackground() throws Exception {
+                        UserDB userDB = new UserDB();
+                        evalute();
+                        userDB.saveTestItem(labelA.getText(),win, lose, neither );
+                        userDB.saveTestItem(labelB.getText(),win, lose, neither );
+                        return null;
+                    }
+                };
+
+
 
 
             }

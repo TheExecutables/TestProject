@@ -4,6 +4,7 @@ import org.paukov.combinatorics.ICombinatoricsVector;
 import org.paukov.combinatorics.combination.simple.SimpleCombinationGenerator;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
@@ -44,7 +45,7 @@ public class Test {
             //System.out.println(combination);
         }
 
-
+         Collections.shuffle(twoItemArray);
         return twoItemArray;
 
 
