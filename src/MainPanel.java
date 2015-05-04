@@ -33,7 +33,7 @@ public void initComponents( ){
 
     //setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-    jButton1.setText("Create");
+    jButton1.setText("Create User");
     
     jButton1.addActionListener(new java.awt.event.ActionListener() {
         public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -43,7 +43,7 @@ public void initComponents( ){
         }
     });
 	
-    jButton2.setText("Select");
+    jButton2.setText("Login");
     jButton2.addActionListener(new java.awt.event.ActionListener() {
           public void actionPerformed(java.awt.event.ActionEvent evt) {
         	MainFrame.cl.show(MainFrame.cards, TestPanel.TESTSELECTPANEL);

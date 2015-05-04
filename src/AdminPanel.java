@@ -36,7 +36,7 @@ public void initComponents( ){
 
     //setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-    jButton1.setText("Create");
+    jButton1.setText("Create Admin");
     jButton1.addActionListener(new java.awt.event.ActionListener() {
         public void actionPerformed(java.awt.event.ActionEvent evt) {
         	 MainFrame.cl.show(MainFrame.cards, CreateUserPanel.CREATEUSERPANEL);
@@ -45,7 +45,7 @@ public void initComponents( ){
         }
     });
 
-    jButton2.setText("Select");
+    jButton2.setText("Add Test Item");
     jButton2.addActionListener(new java.awt.event.ActionListener() {
         public void actionPerformed(java.awt.event.ActionEvent evt) {
         	MainFrame.cl.show(MainFrame.cards, TestPanel.TESTSELECTPANEL);
@@ -56,7 +56,7 @@ public void initComponents( ){
 
     jLabel2.setText("Create a new Admin");
 
-    jLabel3.setText("Select an exising Admin");
+    jLabel3.setText("Create a new Test Item");
 
     javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
     setLayout(layout);

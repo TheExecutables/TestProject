@@ -6,38 +6,48 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 /**
  * 
- * @author James Woodward
+ * @author James Woodward, Andrew Seaton
  *
  */
 
-public class MenuBar extends JMenuBar implements ActionListener{
+public class MenuBar extends JMenuBar {
 
     private JMenu menu;
     private JMenu help;
 
-    JMenuItem menuItem;
-	
+	JMenuItem menuItem1;
+	JMenuItem menuItem2;
+
 	public MenuBar() {
 		createMenu();
 		
 	}
 	
 	public void createMenu(){
-		menu = new JMenu("FILE");
-		help = new JMenu("HELP");
-		menuItem = new JMenuItem("yoolo");
-		menuItem.addActionListener(this);
-		MainFrame.cl.show(MainFrame.cards, MainPanel.MAINPANEL);
+		menu = new JMenu("File");
+		help = new JMenu("Help");
+		menuItem1 = new JMenuItem("Admin Login");
+		menuItem2 = new JMenuItem("User Login");
+		menuItem1.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				MainFrame.cl.show(MainFrame.cards, AdminPanel.ADMINPANEL);
+			}
+		});
+		menuItem2.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				MainFrame.cl.show(MainFrame.cards, MainPanel.MAINPANEL);
+			}
+		});
+		// MainFrame.cl.show(MainFrame.cards, MainPanel.MAINPANEL);
 		add(menu);
 		add(help);
-		menu.add(menuItem);
+		menu.add(menuItem1);
+		menu.add(menuItem2);
 	}
 
-	@Override
-	public void actionPerformed(ActionEvent arg0) {
-		MainFrame.cl.show(MainFrame.cards, MainPanel.MAINPANEL);
-		
-	}
+
 
 }
 
