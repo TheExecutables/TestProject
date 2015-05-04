@@ -15,6 +15,7 @@ public class MenuBar extends JMenuBar implements ActionListener{
     private JMenu menu;
     private JMenu help;
 
+
     JMenuItem menuItem;
 	
 	public MenuBar() {

@@ -5,8 +5,9 @@ import javax.swing.*;
  * @author James Woodward
  *
  */
+
 public class CreateUserPanel extends JPanel{
-	
+	    private  int lies  = 0;
 	  final static String CREATEUSERPANEL = "Create User PANEL";
 	  	private javax.swing.JButton jButtonCreate;
 	    private javax.swing.JButton jButtonCancel;
