@@ -20,6 +20,7 @@ public class Test {
     }
 
 
+
     // stole this from https://code.google.com/p/combinatoricslib/
     // make sure I credit.
      public ArrayList<Holds2>  make2Array(){

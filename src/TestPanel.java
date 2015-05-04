@@ -1,4 +1,4 @@
-import java.awt.Color;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -42,10 +42,12 @@ public class TestPanel extends JPanel{
     }
 
     public  void  evalute(){
+
+
         if(labelNeitherSelected){
             win = 1;
             lose = 0;
-            neither = 1;
+            neither = 0;
         }
         else if (labelBSelected){
             win = 1;
@@ -79,7 +81,7 @@ public class TestPanel extends JPanel{
         buttonGroup.add(jRadioButton2);
         buttonGroup.add(jRadioButton3);
         jRadioButton3.setText("Neither");
-        
+
         GroupLayout jFrame1Layout = new GroupLayout(jFrame1.getContentPane());
         jFrame1.getContentPane().setLayout(jFrame1Layout);
         jFrame1Layout.setHorizontalGroup(
@@ -132,22 +134,17 @@ public class TestPanel extends JPanel{
                 jRadioButton3ActionPerformed(evt);
             }
         });
-      
+
+        labelA.setFont(new java.awt.Font("Times New Roman", 0, 36));
+        labelB.setFont(new java.awt.Font("Times New Roman", 0, 36));
+        labelA.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        labelB.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         submit.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent evt) {
-                 new SwingWorker() {
-                    @Override
-                    protected Object doInBackground() throws Exception {
                         UserDB userDB = new UserDB();
                         evalute();
                         userDB.saveTestItem(labelA.getText(),win, lose, neither );
                         userDB.saveTestItem(labelB.getText(),win, lose, neither );
-                        return null;
-                    }
-                };
-
-
-
 
             }
         });

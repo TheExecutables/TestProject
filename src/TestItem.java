@@ -18,7 +18,7 @@ public class TestItem {
         //}
 
         public String toString(){
-            return "Word : " + word + "  Item # : " ;//+ //itemNumber;
+            return "Word : " + word  ;//+ //itemNumber;
         }
 
 
